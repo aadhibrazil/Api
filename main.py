@@ -207,16 +207,16 @@ def load_settings():
         "zenex_base_url": "https://api.zenexnetwork.com",
         "panel_url": "https://t.me/Zenex_Number_bot?start=8346777366",
         "allowed_services": ["Instagram","Facebook","WhatsApp","TikTok","Telegram","Discord","PayPal","Imo"],
-        "otp_group_url": "https://t.me/+31eV11IT7WQzMjI9",
-        "channel_url": "https://t.me/MinoXofficial0",
-        "support_username": "@support",
+        "otp_group_url": "https://t.me/Aadhixd_otp_grp",
+        "channel_url": "https://t.me/Aadhixdofc",
+        "support_username": "@Aadhixdofc",
         "maintenance_mode": False,
         "cooldown_time": 1.0,
         "min_withdraw": 50.0,
         "otp_bonus": 0.20,
         "referral_bonus": 0.0,
-        "admins": [8346777366],
-        "owners": [8346777366],
+        "admins": [1305766743],
+        "owners": [1305766743],
         "otp_group_chat_id": None,
         "force_join_channel": None,
         "manual_services": [],
@@ -268,7 +268,7 @@ def get_api_headers(api_key):
     return {"mapikey": api_key}
 
 # ==================== WELCOME MESSAGE CONFIGURATION ====================
-WELCOME_MESSAGE = """✨ 𝗪𝗘𝗟𝗖𝗢𝗠𝗘 𝗧𝗢 TEST BOT🚀 ✨ 
+WELCOME_MESSAGE = """✨ 𝗪𝗘𝗟𝗖𝗢𝗠𝗘 𝗧𝗢 𝗔𝗮𝗱𝗵𝗶𝘅𝗱 𝗢𝘁𝗽 𝗕𝗼𝘁🚀 ✨ 
 ━━━━━━━━━━━━━━━━━━━━━━
 🚀 Enjoy Premium Quality Service 🚀"""
 
@@ -281,8 +281,8 @@ MIN_WITHDRAW = 50
 MAX_WITHDRAW = 10000
 
 # ==================== SUPPORT & DEVELOPER LINKS ====================
-SUPPORT_LINK = "https://t.me/DEM_Support_Chat"      # আপনার সাপোর্ট লিংক দিন
-DEVELOPER_LINK = "https://t.me/Davil_Raju"          # আপনার ডেভেলপার লিংক দিন
+SUPPORT_LINK = "https://t.me/Aadhixd_otp_grp"      # আপনার সাপোর্ট লিংক দিন
+DEVELOPER_LINK = "https://t.me/Aadhixdofc"          # আপনার ডেভেলপার লিংক দিন
 
 request_queue = asyncio.Queue()
 MAX_WORKERS = 5000
