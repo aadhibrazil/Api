@@ -5,3 +5,5 @@ urllib3
 APScheduler
 phonenumbers
 pyotp
+h2
+httpx[http2]
