@@ -217,7 +217,7 @@ def load_settings():
         "referral_bonus": 0.0,
         "admins": [1305766743],
         "owners": [1305766743],
-        "otp_group_chat_id": None,
+        "otp_group_chat_id": "-1003901583807",
         "force_join_channel": None,
         "manual_services": [],
     }
