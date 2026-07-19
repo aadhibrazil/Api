@@ -2782,9 +2782,9 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
         api_key = s.get("zenex_api_key", "N/A")
         base_url = s.get("zenex_base_url", "N/A")
         services = ", ".join(s.get("allowed_services", []))
-        otp_link = s.get("otp_group_url", "N/A")
+        otp_link = s.get("https://t.me/Aadhixd_otp_grp", "N/A")
         force_ch = s.get("force_join_channel") or "Disabled"
-        otp_chat = s.get("otp_group_chat_id") or "Not set"
+        otp_chat = s.get("-1003901583807") or "Not set"
         msg = (
             f"📡 <b>ZENEX PANEL CONFIGURATION</b>\n━━━━━━━━━━━━━━━━━━━━━━\n\n"
             f"<blockquote>🔑 API KEY: <code>{html.escape(api_key[:30])}...</code></blockquote>\n"
