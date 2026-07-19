@@ -1496,7 +1496,7 @@ async def fast_allocate_number(query, context, range_text, sid):
     # ★★★ USER BUTTONS COLOR UPDATED ★★★
     keyboard = InlineKeyboardMarkup([
         [InlineKeyboardButton("🔄 SAME RANGE", callback_data="same_range", style="success")],
-        [InlineKeyboardButton("📢 OTP GROUP", url="https://t.me/volt_x_lite_otp", style="primary")]
+        [InlineKeyboardButton("📢 OTP GROUP", url="https://t.me/Aadhixd_otp_grp", style="primary")]
     ])
     try:
         await query.message.edit_text(text, parse_mode="HTML", reply_markup=keyboard)
@@ -1573,7 +1573,7 @@ async def process_auto_number(update, context, range_text):
         # ★★★ SAME RANGE BUTTON COLOR IN AUTO NUMBER (FOR CONSISTENCY) ★★★
         keyboard = InlineKeyboardMarkup([
             [InlineKeyboardButton("🔄 SAME RANGE", callback_data="same_range", style="success")],
-            [InlineKeyboardButton("📢 OTP GROUP", url="https://t.me/volt_x_lite_otp", style="primary")]
+            [InlineKeyboardButton("📢 OTP GROUP", url="https://t.me/Aadhixd_otp_grp", style="primary")]
         ])
         await status_msg.edit_text(final_text, parse_mode="HTML", reply_markup=keyboard)
 
@@ -1659,7 +1659,7 @@ async def process_numbers(update_or_query, context, range_text, count):
         # ★★★ PROCESS NUMBERS BUTTONS COLOR UPDATE (FOR SINGLE NUMBER) ★★★
         keyboard = InlineKeyboardMarkup([
             [InlineKeyboardButton("🔄 SAME RANGE", callback_data="same_range", style="success")],
-            [InlineKeyboardButton("📢 OTP GROUP", url="https://t.me/volt_x_lite_otp", style="primary")]
+            [InlineKeyboardButton("📢 OTP GROUP", url="https://t.me/Aadhixd_otp_grp", style="primary")]
         ])
 
         await status_msg.edit_text(final_text, parse_mode="HTML", reply_markup=keyboard)
@@ -3257,7 +3257,7 @@ async def button_callback(update: Update, context: ContextTypes.DEFAULT_TYPE):
         if r_text:
             try:
                 await query.message.edit_reply_markup(reply_markup=InlineKeyboardMarkup([[
-                    InlineKeyboardButton("📢 OTP GROUP", url="https://t.me/volt_x_lite_otp", style="primary")
+                    InlineKeyboardButton("📢 OTP GROUP", url="https://t.me/Aadhixd_otp_grp", style="primary")
                 ]]))
             except:
                 pass
