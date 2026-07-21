@@ -25,7 +25,7 @@ except ImportError:
 
 # ==================== CONFIG SECTION ====================
 
-BOT_TOKEN = "8988594519:AAHcD1DVTDrm2Ro8PlwKo6J5-nwAqPcodJw"
+BOT_TOKEN = "8988594519:AAFu1h3k7JWcHfeSYBdzLDtLc25pLNaXMYc"
 USER_DATA_FILE = "users.json"
 PAID_SMS_FILE = "paid_sms.json"
 STATS_FILE = "user_stats.json"
